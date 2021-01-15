@@ -3,6 +3,7 @@
 * Using JQuery JS in the backend to allow download links to .mp4 files
 
 ## READ THIS FIRST:
+* Put all downloaded files into folder called 'SECCAM'
 * USB camera 1 will be used for outdoor monitoring. It will record 10 second clips when motion detected.
 * USB camera 2 will be used for indoor motion detection. If motion detected, it will take pictures and store them in 'images' folder
 * Flask server will stream both camera feeds and filehost .mp4 files of camera 1 from 'static' folder
