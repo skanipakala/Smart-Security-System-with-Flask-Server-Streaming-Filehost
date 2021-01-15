@@ -1,5 +1,6 @@
-# Smart-Security-System-with-Server-Streaming-Filehost
-Primarily using openCV and Flask module to create a LAN server that will stream multiple USB camera live feeds, while allowing user to download motion triggered footage directly from any device on the network
+# Smart-Security-System-with-Flask-Server-Streaming-Filehost
+* Primarily using openCV and Flask module to create a LAN server that will stream multiple USB camera live feeds, while allowing user to download motion triggered footage directly from any device on the network. 
+* Using JQuery JS in the backend to allow download links to .mp4 files
 
 ## READ THIS FIRST:
 * USB camera 1 will be used for outdoor monitoring. It will record 10 second clips when motion detected.
