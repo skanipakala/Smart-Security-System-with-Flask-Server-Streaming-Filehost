@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="#" />
+    <title>Camera SERVER</title>
+</head>
+
+
+<body>	
+	
+	
+<div>	
+	<center>
+	<h1>Sri Home SERVER</h1>
+	<p>Welcome to Sri Security System [S.S.S] Server!</p>
+	
+	<div>	
+	<button type="button"> 
+	<a href="/button_on">SMART security ON</a>
+	</button>
+	
+	<button type="button"> 
+	<a href="/button_off">SMART security OFF</a>
+	</button>
+	
+	<button type="button"> 
+	<a href="/status">System Status</a>
+	</button>
+
+ </div>
+	<img src="{{ url_for('video_feed') }}">
+	<img src="{{ url_for('video_feed2') }}">
+	<center>
+</div>    
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+	
+	
+	
+
+
+
+<div>
+<center>
+    <script type = "text/javascript" 
+         src = "{{ url_for('static', filename = 'get_json.js') }}" ></script>
+
+</center>
+</div>
+
+  
+</body>
+
+</html>
